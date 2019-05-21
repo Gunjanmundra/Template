@@ -1,0 +1,183 @@
+           body {
+               font-family: 'Poppins', sans-serif;
+           }
+           
+           .navbar {
+               position: absolute;
+               top: 0px;
+               font-size: 20px;
+               font-weight: bold;
+               padding-left: 50px;
+           }
+           
+           .nav-item {
+               color: #957B5F;
+           }
+           
+           .nav-content {
+               color: #957B5F;
+           }
+           
+           li a {
+               margin-left: 50px;
+           }
+           
+           li a:hover {
+               color: white;
+           }
+           
+           #logo {
+               width: 90px;
+               height: 70px;
+           }
+           
+           .header-img {
+               width: 100%;
+               height: 1000px;
+           }
+           
+           .work {
+               background-color: rgba(0, 0, 0, 0.829);
+           }
+           
+           .text {
+               padding-top: 170px;
+               color: #957B5F;
+               padding-left: 180px;
+           }
+           
+           .parallax {
+               /* The image used */
+               background-image: url("images/header1.png");
+               /* Set a specific height */
+               min-height: 700px;
+               /* Create the parallax scrolling effect */
+               background-attachment: fixed;
+               background-position: center;
+               background-repeat: no-repeat;
+               background-size: cover;
+           }
+           
+           .row {
+               color: white;
+               padding-top: 100px;
+               padding-left: 180px;
+           }
+           
+           .write {
+               padding-left: 100px;
+           }
+           
+           .img-fluid {
+               height: 350px;
+               width: 1000px;
+           }
+           
+           p {
+               text-align: justify;
+           }
+           
+           .card-design {
+               color: white;
+               font-stretch: extra-expanded;
+               margin-left: auto;
+               margin-right: auto;
+               text-align: center;
+           }
+           
+           .font {
+               font-size: 100px;
+               color: #957B5F;
+           }
+           
+           footer {
+               background-color: black;
+           }
+           
+           .touch {
+               font-size: 15px;
+           }
+           
+           input {
+               background-color: rgba(0, 0, 0, 1);
+               border-top: 1px solid rgba(255, 255, 255, 1);
+               border-bottom: 1px solid rgba(255, 255, 255, 1);
+               box-shadow: 0 0 5px rgba(0, 0, 0, 0.7)
+           }
+           
+           input[type=email] {
+               margin-top: 10px;
+           }
+           
+           .message {
+               height: 60px;
+               margin-top: 35px;
+               padding-bottom: 35px;
+           }
+           
+           .social {
+               transition: transform .2s;
+               margin-left: 300px;
+           }
+           
+           .copy {
+               margin-top: 40px;
+               margin-left: 120px;
+           }
+           
+           .butt {
+               margin-left: 120px;
+               margin-top: 10px;
+           }
+           
+           .fa-facebook-square {
+               color: #957B5F;
+           }
+           
+           .fa-twitter {
+               margin-left: 35px;
+               color: #957B5F;
+           }
+           
+           .fa-google-plus-g {
+               margin-left: 30px;
+               color: #957B5F;
+           }
+           
+           .fa-facebook-square:hover {
+               transform: scale(1.1);
+               color: rgb(122, 79, 33);
+           }
+           
+           .fa-twitter:hover {
+               transform: scale(1.1);
+               color: rgb(122, 79, 33);
+           }
+           
+           .fa-google-plus-g:hover {
+               transform: scale(1.1);
+               color: rgb(122, 79, 33);
+           }
+           
+           h1 {
+               color: #957B5F;
+           }
+           
+           hr {
+               border-top: 2px solid #957B5F;
+               width: 70%;
+               margin-top: 50px;
+           }
+           
+           .add {
+               margin-top: 40px;
+           }
+           
+           .button {
+               margin-top: 30px;
+           }
+           
+           .button:hover {
+               transform: scale(1.05);
+               color: rgb(122, 79, 33);
+           }
